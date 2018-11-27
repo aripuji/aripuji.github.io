@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form BEM</title>
+    <link rel="stylesheet" href="style3.css">
+    <script type="text/javascript" src = "table1.js"></script>
+    <link rel="icon" type="image/png" href="logo.png">
+  </head>
+  <body>
+<header>
+      <div id="logo">
+        <img height="60" width="60" src="logo.png">
+    </div>
+
+    <div class="name">
+        Struktur Organisasi Fakultas Ilmu Komputer
+    </div>
+  <div class="dropdown">
+  <button class="drop"> ☰ </button>
+  <div class="dropdown-content">
+    <a href="home.html">Beranda</a>
+    <a href="s.html">Ormawa</a>
+    <a href="bem.html">Profil</a>
+    <a href="option.html">Pendaftaran</a>
+  </div>
+  </div>
+</header>
+  </body>
+  <br><br><br><br><br>
+    <table border="0"  bgcolor="#ffffff" align="center" height="1300" width=900"" cellpadding="10">
+      <tr>
+      <td>
+  <div class="judul">
+      <h1><font color="black" face="freestyle script" size="7">Form Pendaftaran Anggota HIMASIF 2k18 </h1>
+  <br>
+  </div>
+  <body>
+    <div class="register">
+    <form name = "biodata" method="post"  action="form bem.html">
+      <pre>
+        Nama lengkap : <input type = "text" id = "NamaDepan" placeholder= "Nama Depan">   <input type = "text" id = "NamaBelakang" placeholder="Nama Belakang">
+
+        Nim          : <input type = "number" id = "Nim" placeholder="NIM">
+
+        Prodi        : <input type = "text" id = "Prodi" placeholder= "Prodi">
+
+        TTL          : <input type = "date" id = "tgl" placeholder="tgl">
+
+        No Telephone : <input type = "number"  id = "telephone" placeholder="Telephone">
+
+        Alamat di Jember        : <input type = "text" id = "alamatj" placeholder=" Alamat ">
+
+        Alamat Email            : <input type="email" id="email"  placeholder=" Email ">
+
+        Alasan Ikut Organisasi  : <input type="text" id="alasan"  placeholder="Alasan ikut organisasi">
+
+        Motto                   : <input type = "text" id = "motto" placeholder= "Motto">
+
+        Pengalaman Berorganisasi : <input type = "text" id = "pengalaman" placeholder= "PengalamanOrganisasi">
+
+        Divisi yang diinginkan   : <select id = "divisi">
+        <option> Humas
+        <option> Litbang
+        <option> Mediatek
+        <option> Kerohanian
+        </select>
+
+        Deskripsi Diri           : <input type = "text" id = "deskripsi" placeholder=" Deskripsi diri">
+    </pre>
+    <div class="button">
+        <input type = "button" onclick = "terimainput()" value = "Kirim">
+        <input type = "reset" value = "Ulangi">
+      </div>
+        </form>
+      </table>
+<br><br>
+
+        <table border = "1" id="tableinput">
+     <tr>
+             <td>Nama lengkap</td>
+             <td>Nim</td>
+             <td>Prodi</td>
+             <td>TTL</td>
+             <td>No Telephone</td>
+             <td>  Alamat di Jember </td>
+             <td> Alamat Email </td>
+             <td> Alasan Ikut Organisasi </td>
+             <td> Motto </td>
+             <td>Pengalaman Berorganisasi</td>
+             <td>Divisi yang diinginkan</td>
+             <td>Deskripsi Diri</td>
+
+     </tr>
+     </table>
+     <div class = "footer">
+       <p> Copyright©Ari Puji Astuti-Sintya Septina Rianti</p>
+     </div>
+   </div>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Binary</title>
+    <link rel="stylesheet" href="style3.css">
+    <link rel="icon" type="image/png" href="logo.png">
+  </head>
+  <body>
+<header>
+      <div id="logo">
+        <img height="60" width="60" src="logo.png">
+    </div>
+
+    <div class="name">
+        Struktur Organisasi Fakultas Ilmu Komputer
+    </div>
+  <div class="dropdown">
+  <button class="drop"> ☰ </button>
+  <div class="dropdown-content">
+    <a href="home.html">Beranda</a>
+    <a href="s.html">Ormawa</a>
+    <a href="bem.html">Profil</a>
+    <a href="option.html">Pendaftaran</a>
+  </div>
+  </div>
+</header>
+  </body>
+<br><br><br><br><br>
+  <table border="0"  bgcolor="#ffffff" align="center" height="1300" width=900"" cellpadding="10">
+    <tr>
+    <td>
+<div class="judul">
+    <h1><font color="black" face="freestyle script" size="7">Form Pendaftaran Anggota Binary 2k18 </h1>
+<br>
+</div>
+
+<body>
+
+<div class="register">
+<form  name = "biodata" method="post"  action="formbem.html">
+    <h4>Silahkan isi formulir dibawah ini</h4>
+    <br></br>
+
+    Nama lengkap <br>
+    <input type = "text" id = "NamaDepan" placeholder= "Nama Depan" required="">   <input type = "text" id = "NamaBelakang" placeholder="Nama Belakang" required=""><br><br>
+
+    Nim          <br>
+    <input type = "number" id = "Nim" placeholder="NIM" required=""> <br><br>
+
+    Prodi        <br>
+    <input type = "text" id = "Prodi" placeholder= "Prodi" required=""><br><br>
+
+    TTL          <br>
+    <input type = "date" id = "tgl" placeholder="tgl" required=""><br><br>
+
+    No Telephone <br>
+    <input type = "tel"  id = "telephone" placeholder="Telephone" required=""><br><br>
+
+    Alamat di Jember        <br>
+    <input type = "text" id = "alamatj" placeholder=" Alamat " required=""><br><br>
+
+    Alamat Email            <br>
+    <input type="email" id="email"  placeholder=" Email " required=""><br><br>
+
+    Alasan Ikut Organisasi  <br>
+    <input type="text" id="alasan"  placeholder="Alasan ikut organisasi" required=""><br><br>
+
+    Motto                   <br>
+    <input type = "text" id = "motto" placeholder= "Motto" required=""><br><br>
+
+    Deskripsi Diri           <br>
+    <input type = "text" id = "deskripsi" placeholder=" Deskripsi diri" required="">
+
+<br></br><br></br>
+<div class="button">
+  <input type = "button" onclick = "terimainput()" value = "Kirim">
+  <input type = "reset" value = "Ulangi">
+  </div>
+</form>
+</table>
+<br></br>
+
+<div class="table">
+ <table border="1" id="tableinput">
+
+<tr>
+      <td>Nama lengkap</td>
+      <td>Nim</td>
+      <td>Prodi</td>
+      <td>TTL</td>
+      <td>No Telephone</td>
+      <td>  Alamat di Jember </td>
+      <td> Alamat Email </td>
+      <td> Alasan Ikut Organisasi </td>
+      <td> Motto </td>
+      <td>Deskripsi Diri</td>
+
+</tr>
+</div>
+  <div class = "footer">
+    <p> Copyright©Ari Puji Astuti-Sintya Septina Rianti</p>
+  </div>
+  </tr>
+  </td>
+  </body>
+</html>
